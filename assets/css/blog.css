@@ -1,0 +1,93 @@
+body {
+    font-family: Arial;
+    margin: 1px;
+    background-color: white; /* Light mode background color */
+    color: black; /* Light mode text color */
+}
+
+body.dark-mode {
+    background-color: black; /* Dark mode background color */
+    color: white; /* Dark mode text color */
+}
+
+
+.dark-mode .line {
+    background-color: white;
+}
+
+.line {
+    width: 100%; /* Adjust the width of the line */
+    height: 2px; /* Adjust the height of the line */
+    background-color: black; /* Set the color of the line */
+    margin: 3px 0; /* Adjust the margin around the line */
+}
+
+header {
+    margin: 5px;
+    position: relative;
+    top: -50px;
+}
+
+#header-content {
+    color: gold;
+    margin: 0 0 0 97%; 
+    position: relative;
+    cursor: pointer;
+
+}
+
+#back {
+    color: white;
+    background-color: black;
+    position: absolute;
+    right: 65px;
+    top: 55px;
+    cursor: pointer;
+}
+
+#header-text {
+    position: relative;
+    left: 15px;
+    top: 55px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
+    position: relative;
+    top: 40px;
+}
+
+footer {
+    position: relative;
+    top: 30px;
+    display: table;
+    width: 80%;
+}
+
+footer p {
+    display: table-cell;
+    vertical-align: center;
+    padding-top: 250px;
+}
+
+
+
+.line-bottom {
+    position: absolute; /* Set the position to absolute */
+    top: 870px; /* Adjust the top value to move it down */
+    width: 100%; /* Ensure the line spans the full width */
+}
+
+footer a {
+    list-style: none;
+    margin-bottom: 10px;
+    position: relative;
+    top: 1px;
+}
+
+
+
+
+
+

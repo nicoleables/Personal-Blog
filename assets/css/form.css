@@ -1,0 +1,48 @@
+.post {
+    position: relative;
+    top: -45px; 
+    border: 2px solid black; /* Add a black border around the postElement */
+    padding: 10px; /* Add padding inside the border for spacing */
+    border-radius: 4px; /* Round the corners of the postElement */
+
+}
+
+.post-title {
+    font-weight: bold;
+    color: black;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 20px;
+}
+
+.post-title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%; /* Set the width to 1450% to make the underline longer to the right */
+    border-bottom: 2px solid black;
+}
+
+span {
+    font-size: 15px;
+    position: relative;
+    left: 10px; 
+    bottom: 3px;
+}
+
+.underline-title {
+    border-bottom: 2px solid black; /* Customize the border style, color, and thickness */
+}
+
+.dark-mode .post {
+    border: solid white;
+}
+
+.dark-mode .underline-title {
+    border-bottom: solid white;
+}
+
+
